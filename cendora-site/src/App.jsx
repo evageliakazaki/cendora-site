@@ -167,28 +167,36 @@ function Hero({ t }) {
                 <div className="hero-content">
                     <p className="eyebrow">{t.hero.eyebrow}</p>
                     <h1>{t.hero.title}<em>{t.hero.accent}</em></h1>
-                    <span className="fine-rule" aria-hidden="true" />
+                    <span className="fine-rule" aria-hidden="true"/>
                     <p className="hero-description">{t.hero.description}</p>
                     <div className="hero-actions">
                         <a className="button button-dark" href="#product">
-                            {t.hero.button}<SiteIcon name="arrow" size={17} />
+                            {t.hero.button}<SiteIcon name="arrow" size={17}/>
                         </a>
                         <a className="text-link" href="#story">{t.hero.storyLink}</a>
                     </div>
                 </div>
+
+
                 <figure className="hero-visual">
-                    <img src={site.product.image} alt={t.hero.alt} fetchPriority="high" />
+                    <img
+                        className="hero-logo-image"
+                        src={site.logo}
+                        alt="CENDORA Logo"
+                    />
                 </figure>
+
+
             </div>
         </section>
     );
 }
 
-function Values({ t }) {
+function Values({t}) {
     const icons = ["✧", "◌", "✳"];
     return (
         <section className="values-strip">
-            <div className="container values-grid">
+        <div className="container values-grid">
                 {t.values.map((item, index) => (
                     <div key={index}>
 
