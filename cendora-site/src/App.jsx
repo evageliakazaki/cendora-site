@@ -230,11 +230,28 @@ function ProductShowcase({ t }) {
                 <div className="product-copy">
                     <p className="eyebrow">{t.product.eyebrow}</p>
                     <h2>{t.product.title}<em>{t.product.accent}</em></h2>
-                    <h3>{t.product.name}</h3>
+
+                    <div className="product-heading-row">
+                        <h3>{t.product.name}</h3>
+
+                        <label className="product-scent-choice">
+                            <span>{t.product.scentLabel}</span>
+
+                            <select name="scent" defaultValue="">
+                                <option value="" disabled>
+                                    {t.product.scentPlaceholder}
+                                </option>
+                                <option value="melomakarono">
+                                    {t.product.melomakarono}
+                                </option>
+                            </select>
+                        </label>
+                    </div>
+
                     <p>{t.product.description}</p>
                     {specs.length > 0 && (
                         <dl className="product-specs">
-                            {specs.map(({ label, value }) => (
+                            {specs.map(({label, value}) => (
                                 <div key={label}>
                                     <dt>{label}</dt>
                                     <dd>{value}</dd>
@@ -264,7 +281,6 @@ function Story({ t }) {
                     <h2>{t.story.title}<em>{t.story.accent}</em></h2>
                     <span className="fine-rule" aria-hidden="true" />
                     <p>{t.story.paragraph1}</p>
-                    <p>{t.story.paragraph2}</p>
                 </div>
             </div>
         </section>

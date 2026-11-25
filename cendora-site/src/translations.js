@@ -31,7 +31,12 @@ export const translations = {
             eyebrow: "ΤΟ ΚΕΡΙ",
             title: "Ένα κερί.",
             accent: "Μια ξεχωριστή αίσθηση.",
-            name: "Αρωματικό κερί CENDORA",
+
+            name: "Φυτικό κερί σόγιας CENDORA",
+            scentLabel: "Άρωμα",
+            scentPlaceholder: "Επιλογή αρώματος",
+            melomakarono: "Μελομακάρονο",
+
             description: "Ένα αρωματικό κερί για τις στιγμές που θέλεις να χαλαρώσεις, να απολαύσεις τον χώρο σου και να δώσεις σημασία στις μικρές λεπτομέρειες.",
             button: "Μάθε περισσότερα",
             alt: "Φωτογραφία του κεριού CENDORA",
@@ -41,7 +46,7 @@ export const translations = {
             eyebrow: "Η ΦΙΛΟΣΟΦΙΑ",
             title: "Η ομορφιά των ",
             accent: "απλών στιγμών.",
-            paragraph1: "Στο CENDORA, το άρωμα και το φως αποτελούν αφορμή να αφιερώσουμε λίγο περισσότερο χρόνο στις μικρές στιγμές.",
+            paragraph1: "Στο CENDORA δημιουργούμε χειροποίητα αρωματικά κεριά σόγιας, συνδυάζοντας την ποιότητα, την κομψότητα και την οικολογική συνείδηση, με σεβασμό προς τον άνθρωπο και το περιβάλλον.",
             paragraph2: "Μια ήρεμη αισθητική, μια γνώριμη αίσθηση, μια καθημερινή στιγμή που γίνεται ξεχωριστή."
         },
         care: {
@@ -95,7 +100,12 @@ export const translations = {
             eyebrow: "OUR CANDLE",
             title: "One candle.",
             accent: "A distinctive feeling.",
-            name: "CENDORA Scented Candle",
+
+            name: "CENDORA Soy Wax Candle",
+            scentLabel: "Scent",
+            scentPlaceholder: "Choose a scent",
+            melomakarono: "Melomakarono",
+
             description: "A scented candle for moments when you want to unwind, enjoy your space, and appreciate the little details.",
             button: "Find out more",
             alt: "Photograph of the CENDORA candle",
@@ -105,7 +115,7 @@ export const translations = {
             eyebrow: "OUR PHILOSOPHY",
             title: "The beauty of ",
             accent: "simple moments.",
-            paragraph1: "At CENDORA, scent and light are an invitation to spend a little more time enjoying life's small moments.",
+            paragraph1: "At CENDORA, we create handmade scented soy wax candles, combining quality, elegance and environmental awareness with respect for people and the environment.",
             paragraph2: "A calm aesthetic, a familiar feeling, an everyday moment made special."
         },
         care: {

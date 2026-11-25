@@ -199,7 +199,7 @@ p {
 
 .hero {
     overflow: hidden;
-    background: var(--ivory);
+    background: var(--sand);
 }
 
 .hero-grid {
@@ -259,7 +259,7 @@ p {
     align-items: center;
     justify-content: center;
 
-    background: var(--ivory);
+    background: var(--sand);
     border: none;
     overflow: hidden;
     position: relative;
@@ -416,6 +416,65 @@ p {
     font-size: .7rem !important;
     margin-top: 22px;
 }
+
+
+/* Product title and scent dropdown */
+
+.product-heading-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.product-heading-row h3 {
+    margin: 0;
+    flex: 1 1 220px;
+}
+
+.product-scent-choice {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 0 1 190px;
+}
+
+.product-scent-choice span {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--charcoal);
+}
+
+.product-scent-choice select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid var(--sand);
+    border-radius: 2px;
+    background: var(--ivory);
+    color: var(--charcoal);
+    font: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.product-scent-choice select:focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 2px;
+}
+
+@media (max-width: 640px) {
+    .product-heading-row {
+        align-items: stretch;
+    }
+
+    .product-heading-row h3,
+    .product-scent-choice {
+        flex: 1 1 100%;
+    }
+}
+
 
 /* BRAND PHILOSOPHY */
 
