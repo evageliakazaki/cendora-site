@@ -4,7 +4,7 @@ export const site = {
     slogan: "AWAKEN YOUR SENSES",
 
     // GitHub Pages compatible logo path
-    logo: `${import.meta.env.BASE_URL}images/cendora.png`,
+    logo: `${import.meta.env.BASE_URL}images/cendora.JPG`,
 
     instagramHandle: "cendora.candles",
     instagramUrl: "https://www.instagram.com/cendora.candles/",
