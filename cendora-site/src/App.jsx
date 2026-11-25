@@ -237,10 +237,12 @@ function ProductShowcase({ t }) {
                         <label className="product-scent-choice">
                             <span>{t.product.scentLabel}</span>
 
+
                             <select name="scent" defaultValue="">
-                                <option value="" disabled>
+                                <option value="">
                                     {t.product.scentPlaceholder}
                                 </option>
+
                                 <option value="melomakarono">
                                     {t.product.melomakarono}
                                 </option>

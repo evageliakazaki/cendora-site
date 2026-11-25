@@ -33,7 +33,7 @@ export const translations = {
             accent: "Μια ξεχωριστή αίσθηση.",
 
             name: "Φυτικό κερί σόγιας CENDORA",
-            scentLabel: "Άρωμα",
+            scentLabel: "Επίλεξε το άρωμά σου",
             scentPlaceholder: "Επιλογή αρώματος",
             melomakarono: "Μελομακάρονο",
 
@@ -102,7 +102,7 @@ export const translations = {
             accent: "A distinctive feeling.",
 
             name: "CENDORA Soy Wax Candle",
-            scentLabel: "Scent",
+            scentLabel: "Choose your scent",
             scentPlaceholder: "Choose a scent",
             melomakarono: "Melomakarono",
 
